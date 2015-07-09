@@ -13,11 +13,9 @@ h1-header {
 }
 
 .container {
-
 	max-width: 900px;
 	margin: 0 auto;
 	padding-top: 60px;
-
 }
 
 .fixed-nav-bar {
