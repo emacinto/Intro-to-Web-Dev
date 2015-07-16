@@ -2,27 +2,36 @@ body {
 	
 	background-color: #ecf0f1;
 	font-family: 'Roboto', sans-serif;	
-	padding-bottom: 30px;
 }
 
 h1 {
-	font-family: 'Droid sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
 	font-weight: lighter;
 
 }
 
 h2 {
-	font-family: 'Droid sans', sans-serif;
-	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
 	font-weight: lighter;
 }
+
+
 .titlecontainer {
 	max-width: 900px;
 	margin: 0 auto;
 	padding-top: 60px;
 }
 
+	.titlecontainerimage {
+		height: 20px;
+
+	}
+
+	.titlecontainertext {
+		position: absolute;
+	}
 .fixed-nav-bar {
 		position: fixed;
 		padding-top: 10px;
@@ -31,9 +40,9 @@ h2 {
   		z-index: 9999;
   		width: 100%;
   		height: 50px;
-  		background-color: #FFFFFF;
-  		text-align: right;
-  		font-size: 1.2em;
+  		text-align: center;
+  		font-size: .8em;
+  		background-color: white;
  }
 
 	.fixed-nav-bar a {
@@ -46,17 +55,28 @@ h2 {
 		text-decoration: none ;
 	}
 	.fixed-nav-bar a:hover{
-			color:#0000FF;
+		color:#0000FF;
 }
-	.menubuttons {
-		float: right;
+	.menubuttonsright {
+		position: absolute;
+		right: 10px;
 		padding-right: 10px;
 		padding-bottom: 10px;
+		display: inline-block;
 	} 
-	
-.logoimage{
-	width:191px;
-	height:70px; 
-	float:left;
-	padding-left: 10px
+	.menubuttonsleft {
+		position: absolute;
+		left: 18px;
+		top: 20px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		display: inline-block;
+	} 
+
+		.menubuttonsleft a {
+			margin-right: 10px;
+
+		}
+.logo{
+	display: inline-block;	
 }
